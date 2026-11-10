@@ -1,5 +1,5 @@
 context:
-  version: "11.0.1"
+  version: "11.1.0"
   major_minor: ${{ (version | split('.'))[:2] | join('.') }}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://github.com/eclipse-cyclonedds/cyclonedds-cxx/archive/refs/tags/${{ version }}.tar.gz 
-  sha256: f20d30610100329716b2bd810054741a6ce9be6a9eeefcf941def1e1b311ddb2
+  url: https://github.com/eclipse-cyclonedds/cyclonedds-cxx/archive/refs/tags/${{ version }}.tar.gz
+  sha256: 8d11013becd93e5527f5bfd808d987e0fc5d56ddafe77fdff178657f4bf7e77b
 
 build:
   number: 0
